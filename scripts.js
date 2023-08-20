@@ -20,5 +20,16 @@ function scrollToTop() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
-
+// Smooth scrolling for navigation tabs
+document.querySelectorAll('.tabs a').forEach(tab => {
+    tab.addEventListener('click', function (event) {
+        event.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        window.scrollTo({
+            top: targetSection.offsetTop,
+            behavior: 'smooth'
+        });
+    });
+});
 
