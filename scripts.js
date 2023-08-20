@@ -20,16 +20,23 @@ function scrollToTop() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
-// Smooth scrolling for navigation tabs
-document.querySelectorAll('.tabs a').forEach(tab => {
-    tab.addEventListener('click', function (event) {
-        event.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetSection = document.querySelector(targetId);
-        window.scrollTo({
-            top: targetSection.offsetTop,
-            behavior: 'smooth'
-        });
+// Load content into the tab content section
+document.querySelectorAll('.tab-link').forEach(tabLink => {
+    tabLink.addEventListener('click', function () {
+        const tabId = this.getAttribute('data-tab');
+        const tabContent = document.getElementById('tabContent');
+
+        // Clear existing content
+        tabContent.innerHTML = '';
+
+        // Load content based on the clicked tab
+        if (tabId === 'tab1') {
+            tabContent.innerHTML = '<h2>Tab 1 Content</h2><p>This is the content for Tab 1.</p>';
+        } else if (tabId === 'tab2') {
+            tabContent.innerHTML = '<h2>Tab 2 Content</h2><p>This is the content for Tab 2.</p>';
+        } else if (tabId === 'tab3') {
+            tabContent.innerHTML = '<h2>Tab 3 Content</h2><p>This is the content for Tab 3.</p>';
+        }
     });
 });
 
