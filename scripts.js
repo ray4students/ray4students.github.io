@@ -21,6 +21,7 @@ function scrollToTop() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
 // Load content into the tab content section
+
 document.querySelectorAll('.tab-link').forEach(tabLink => {
     tabLink.addEventListener('click', function () {
         const tabId = this.getAttribute('data-tab');
