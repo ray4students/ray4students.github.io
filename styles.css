@@ -1,105 +1,52 @@
-/* Reset default margins and paddings */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Apply some basic styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-nav {
-    background-color: #333;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.nav-links {
-    list-style: none;
-}
-
-.nav-links li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-}
-
-.main-content {
-    background-color: #FFD700;
-    padding: 100px 0;
-    text-align: center;
-    color: #333;
-}
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 18px;
-}
-
-/* Additional Styles */
-.section-content {
-    padding: 50px;
-    text-align: center;
-    background-color: #f7f7f7;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section {
-    margin-top: 30px;
-}
-
-
-/*hamburger menu */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px;
-}
-
-.hamburger-menu {
+.hamburger {
     display: none;
-    flex-direction: column;
     cursor: pointer;
 }
 
 .bar {
     width: 30px;
     height: 3px;
-    background-color: white;
-    margin: 3px 0;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .nav-links {
     list-style: none;
+    padding: 0;
     display: flex;
+    justify-content: center;
 }
 
 .nav-links li {
     margin: 0 15px;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: white;
+.content {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.script {
+    display: none;
 }
 
 
