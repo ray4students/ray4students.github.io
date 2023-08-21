@@ -1,20 +1,22 @@
-// Add smooth scrolling to navigation links
-document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', function (event) {
-        event.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetSection = document.querySelector(targetId);
-        window.scrollTo({
-            top: targetSection.offsetTop,
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+const content = document.getElementById('content');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+});
+
+navLinks.addEventListener('click', () => {
+    navLinks.classList.remove('show');
+});
+
+// Smooth scroll to sections
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
     });
-});
-
-/* hamburger menu */
-const hamburgerMenu = document.getElementById('hamburger-menu');
-const navLinks = document.getElementById('nav-links');
-
-hamburgerMenu.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
 });
