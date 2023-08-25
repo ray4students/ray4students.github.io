@@ -1,10 +1,9 @@
-/* Reset default margins and paddings */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Apply some basic styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -47,7 +46,7 @@ p {
     font-size: 18px;
 }
 
-/* Additional Styles */
+
 .section-content {
     padding: 50px;
     text-align: center;
