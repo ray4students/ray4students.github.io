@@ -1,0 +1,8 @@
+project-folder/
+├── index.html
+├── styles/
+│   ├── main.css
+├── pages/
+│   ├── about.html
+│   ├── portfolio.html
+│   └── contact.html
