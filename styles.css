@@ -1,53 +1,50 @@
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default styles for consistency */
+body, h1, p {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header and navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styles */
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
     color: #333;
 }
 
-/* Navigation menu */
-.menu {
-    list-style: none;
-    padding: 0;
-    background-color: #444;
-    display: flex;
-}
-
-.menu li {
-    margin-right: 20px;
-}
-
-.menu a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.menu a:hover {
-    color: #ff9900;
-}
-
-/* Header */
-header {
-    background-color: #ff9900;
-    padding: 20px;
-    text-align: center;
-    color: white;
-}
-
-/* Main content */
-main {
-    padding: 20px;
-}
-
-/* Footer */
+/* Footer styles */
 footer {
-    background-color: #444;
-    color: white;
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 1rem 0;
 }
 
