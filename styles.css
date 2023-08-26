@@ -94,4 +94,56 @@ body {
     text-align: center;
     padding: 1rem 0;
 }
+/* Header and navigation styles */
+.main-header {
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.main-nav {
+    /* ... */
+}
+
+/* Navigation links */
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Hero section styles */
+.hero {
+    /* ... */
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Hero content styles */
+.hero-content {
+    /* ... */
+}
+
+/* Product section styles */
+.products {
+    /* ... */
+}
+
+/* Product styles */
+.product {
+    /* ... */
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 1.5rem;
+}
+
+/* Footer styles */
+.main-footer {
+    /* ... */
+    background-color: #333; /* Dark gray footer */
+}
 
