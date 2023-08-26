@@ -2,7 +2,8 @@ project-folder/
 ├── index.html
 ├── styles/
 │   ├── main.css
-├── pages/
-│   ├── about.html
-│   ├── portfolio.html
-│   └── contact.html
+├── images/
+│   ├── hero-image.jpg
+│   ├── product1.jpg
+│   ├── product2.jpg
+│   └── product3.jpg
