@@ -10,140 +10,20 @@ body {
 
 /* Header and navigation styles */
 .main-header {
-    background-color: #000;
-    color: #fff;
-    padding: 1rem 0;
-}
-
-.main-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-}
-
-.nav-list li {
-    margin-right: 1.5rem;
-}
-
-.nav-list li:last-child {
-    margin-right: 0;
-}
-
-.nav-list a {
-    text-decoration: none;
-    color: #fff;
+    /* Styling for the header */
 }
 
 /* Hero section styles */
 .hero {
-    position: relative;
+    /* Styling for the hero section */
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
-.hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-/* Product section styles */
+/* Products section styles */
 .products {
-    display: flex;
-    justify-content: space-around;
-    padding: 4rem 0;
-}
-
-.product {
-    text-align: center;
-    margin: 0 2%;
-}
-
-.product img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-}
-
-.product h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    /* Styling for the products section */
 }
 
 /* Footer styles */
 .main-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
+    /* Styling for the footer */
 }
-/* Header and navigation styles */
-.main-header {
-    background-color: #007bff; /* Blue color */
-    color: #fff;
-    padding: 1rem 0;
-}
-
-.main-nav {
-    /* ... */
-}
-
-/* Navigation links */
-.nav-list a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.nav-list a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-}
-
-/* Hero section styles */
-.hero {
-    /* ... */
-    background-color: #f4f4f4; /* Light gray background */
-}
-
-/* Hero content styles */
-.hero-content {
-    /* ... */
-}
-
-/* Product section styles */
-.products {
-    /* ... */
-}
-
-/* Product styles */
-.product {
-    /* ... */
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
-    padding: 1.5rem;
-}
-
-/* Footer styles */
-.main-footer {
-    /* ... */
-    background-color: #333; /* Dark gray footer */
-}
-
