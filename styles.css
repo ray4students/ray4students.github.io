@@ -1,29 +1,37 @@
-/* Reset some default styles for consistency */
-body, h1, p, ul, li {
+/* Reset some default browser styles */
+body, h1, p {
     margin: 0;
     padding: 0;
 }
 
+/* Basic styling */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-/* Header and navigation styles */
-.main-header {
-    /* Styling for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
 
-/* Hero section styles */
-.hero {
-    /* Styling for the hero section */
+nav ul {
+    list-style-type: none;
 }
 
-/* Products section styles */
-.products {
-    /* Styling for the products section */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Footer styles */
-.main-footer {
-    /* Styling for the footer */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
+
+.content {
+    padding: 20px;
+}
+
+/* Add more styling according to your preferences */
