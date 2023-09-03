@@ -12,7 +12,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -23,31 +23,52 @@
             <div class="hero">
                 <h1>Welcome to My Complex Colorful Website!</h1>
                 <p>Explore the world of creativity and innovation.</p>
-                <a href="#portfolio" class="cta-button">View Portfolio</a>
+                <a href="#contact" class="cta-button">Get in Touch</a>
             </div>
         </section>
 
         <section id="about" class="section">
             <h2>About Me</h2>
             <p>This is a colorful section about me and my interests.</p>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Graphic Design</li>
+                    <li>Front-end Development</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
         </section>
 
-        <section id="portfolio" class="section">
-            <h2>Portfolio</h2>
-            <div class="portfolio-item">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Description of Project 1.</p>
+        <section id="services" class="section">
+            <h2>Services</h2>
+            <div class="service">
+                <h3>Web Design</h3>
+                <p>We create beautiful and user-friendly websites tailored to your needs.</p>
             </div>
-            <!-- Add more portfolio items here -->
+            <div class="service">
+                <h3>Graphic Design</h3>
+                <p>Our creative team can help you with stunning visuals and branding.</p>
+            </div>
+            <!-- Add more services here -->
         </section>
 
         <section id="contact" class="section">
             <h2>Contact Me</h2>
             <form>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea placeholder="Your Message"></textarea>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
                 <button type="submit" class="contact-button">Send</button>
             </form>
         </section>
