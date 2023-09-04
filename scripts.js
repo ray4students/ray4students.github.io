@@ -24,3 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add a click event listener to the "Back to Home" button
     backButton.addEventListener('click', handleBackButtonClick);
 });
+
+function handleNavLinkClick(event) {
+    event.preventDefault();
+    console.log('Navigation link clicked'); // Add this line
+    backButton.style.display = 'block';
+}
