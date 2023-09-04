@@ -40,15 +40,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    // ... Your existing code ...
 
-    // Get a reference to the "Back" button element
-    const backButton = document.getElementById('back-button');
-
-    // Add a click event listener to the button
-    backButton.addEventListener('click', function() {
-        // Navigate to the homepage (in this example, navigate to '/')
-        window.location.href = '/';
-    });
-});
