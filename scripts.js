@@ -1,26 +1,26 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get references to the navigation links and the "Back to Main Page" button
-    const homeLink = document.querySelector('a[href="/"]');
-    const backButton = document.getElementById('back-to-home');
+    // Get references to the navigation links and page sections
+    const navLinks = document.querySelectorAll('nav ul li a');
+    const pages = document.querySelectorAll('.page');
 
-    // Function to handle the navigation link clicks
+    // Function to handle navigation link clicks
     function handleNavLinkClick(event) {
         // Prevent the default link behavior (navigation)
         event.preventDefault();
 
-        // Show the "Back to Main Page" button
-        backButton.style.display = 'block';
+        // Hide all pages
+        pages.forEach(page => {
+            page.style.display = 'none';
+        });
+
+        // Show the selected page
+        const targetId = event.target.getAttribute('href').substring(1); // Remove the '#' character
+        const targetPage = document.getElementById(targetId);
+        targetPage.style.display = 'block';
     }
 
     // Add click event listeners to the navigation links
-    homeLink.addEventListener('click', handleNavLinkClick);
-    
-    // Function to handle the "Back to Main Page" button click
-    function handleBackButtonClick() {
-        // Navigate back to the main page (Home)
-        window.location.href = '/';
-    }
-
-    // Add a click event listener to the "Back to Main Page" button
-    backButton.addEventListener('click', handleBackButtonClick);
+    navLinks.forEach(link => {
+        link.addEventListener('click', handleNavLinkClick);
+    });
 });
