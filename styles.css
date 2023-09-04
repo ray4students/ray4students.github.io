@@ -17,4 +17,9 @@
 #back-to-home:hover {
     background-color: #0056b3;
 }
+/* Set the background color for the body element */
+body {
+    background-color: #FFA69E;
+    /* Other styles for body... */
+}
 
