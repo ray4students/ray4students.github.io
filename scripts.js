@@ -4,19 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const featuredResources = document.querySelector('.featured-resources');
     const allResources = document.querySelector('.all-resources');
 
-    // Sample: Load featured resources dynamically
-    const featuredResourceData = [
-        { title: 'Advanced JavaScript Course', url: '/courses/js-advanced' },
-        { title: 'Machine Learning Basics', url: '/courses/ml-basics' },
-    ];
-
-    featuredResourceData.forEach(resource => {
-        const link = document.createElement('a');
-        link.href = resource.url;
-        link.textContent = resource.title;
-        featuredResources.appendChild(link);
-    });
-
     // Sample: Load all resources dynamically (from an API, database, etc.)
     fetch('/api/resources')
         .then(response => response.json())
