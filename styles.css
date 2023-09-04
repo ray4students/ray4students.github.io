@@ -1,3 +1,11 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(135deg, #FFA69E 10%, #5A9FD4 100%);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
 /* Add styles for the "Back to Home" button */
 #back-to-home {
     display: none;
@@ -17,13 +25,7 @@
 #back-to-home:hover {
     background-color: #0056b3;
 }
-body {
-    font-family: 'Arial', sans-serif;
-    background-image: linear-gradient(135deg, #FFA69E 10%, #5A9FD4 100%);
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
+
 
 /* ... other styles remain the same ... */
 
