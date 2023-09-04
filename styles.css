@@ -23,3 +23,20 @@ button {
 button:hover {
     background-color: #FF5722;
 }
+
+/* Add styles for the "Back to Home" button */
+#back-to-home {
+    display: none; /* Initially hide the button */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Style the button on hover */
+#back-to-home:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
