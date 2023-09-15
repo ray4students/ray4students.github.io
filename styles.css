@@ -6,9 +6,9 @@ body {
     color: #333;
 }
 
-/* Header styles */
+
 header {
-    background-color: #0056b3; /* Header background color */
+    background-color: #0056b3; 
     color: black;
     text-align: center;
     padding: 20px 0;
@@ -35,7 +35,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* Main content styles */
+
 main {
     display: flex;
     justify-content: space-between;
@@ -46,11 +46,11 @@ main {
     flex: 1;
     display: none;
     padding: 20px;
-    background-color: #fff; /* Page background color */
+    background-color: #fff; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer styles */
+
 footer {
     background-color: #0056b3;
     color: white;
