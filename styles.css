@@ -46,7 +46,7 @@ main {
     flex: 1;
     display: none;
     padding: 20px;
-    background-color: #8ff0fb; 
+    background: linear-gradient(to right, #8ff0fb, #0056b3, #e64d00);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
