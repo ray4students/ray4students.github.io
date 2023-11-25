@@ -59,7 +59,10 @@ footer {
 }
 
 
-.center-text {
-    text-align: center;
+.center-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: This sets the height to the full viewport height */
 }
 
