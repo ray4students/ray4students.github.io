@@ -58,3 +58,21 @@ footer {
     padding: 10px 0;
 }
 
+/* styles.css */
+
+/* Define the styles for the animated button */
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Define the hover effect */
+.animated-button:hover {
+    transform: rotateX(180deg);
+}
+
