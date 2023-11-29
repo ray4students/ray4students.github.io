@@ -46,7 +46,7 @@ main {
     flex: 1;
     display: none;
     padding: 20px;
-    background: linear-gradient(180deg, #5A9FD4 10%, #FFA69E 100%);
+    background: linear-gradient(90deg, #5A9FD4 10%, #FFA69E 100%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
