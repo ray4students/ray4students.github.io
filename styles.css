@@ -58,3 +58,22 @@ footer {
     padding: 10px 0;
 }
 
+/* styles.css */
+
+/* Define the styles for the animated heading */
+.animated-heading {
+    text-align: center;
+    color: black;
+    display: inline-block; /* Maintain centering */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #3498db; /* Set the background color */
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Define the hover effect */
+.animated-heading:hover {
+    transform: rotateY(180deg);
+}
+
+
