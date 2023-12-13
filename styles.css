@@ -8,14 +8,10 @@ body {
 
 
 header {
+    background-color: #0056b3;
     color: black;
     text-align: center;
     padding: 20px 0;
-    background-image: url('https://via.placeholder.com/1200x500');
-    background-size: cover; /* Adjust to your needs */
-    background-position: center; /* Adjust to your needs */
-    height: 200px; /* Adjust to your needs */
-    /* Additional styling for the header */
 }
 
 header h1 {
