@@ -40,12 +40,12 @@ nav ul li a {
     color: white;
     font-weight: bold;
     font-size: 18px;
-    transition: color 0.6s ease; /* Added transition property for smooth color change */
+    transition: color 0.3s ease; /* Added transition property for smooth color change */
 }
 
 /* Hover effect for navigation links */
 nav ul li a:hover {
-    color: #3498db; /* Change to the desired hover color */
+    color: #db3434; /* Change to the desired hover color */
 }
 
 main {
