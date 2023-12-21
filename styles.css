@@ -11,7 +11,7 @@ header {
     background-color: #0056b3;
     color: black;
     text-align: center;
-    padding: 50px 0;
+    padding: 200px 0;
 }
 
 header h1 {
@@ -40,12 +40,12 @@ nav ul li a {
     color: white;
     font-weight: bold;
     font-size: 18px;
-    transition: color 0.3s ease; /* Added transition property for smooth color change */
+    transition: color 0.3s ease; 
 }
 
-/* Hover effect for navigation links */
+
 nav ul li a:hover {
-    color: #db3434; /* Change to the desired hover color */
+    color: #db3434; 
 }
 
 main {
