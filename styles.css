@@ -12,7 +12,7 @@ header {
     color: black;
     text-align: center;
     background-height: 100vh;
-    background-width: 100vh;
+    padding: 200px 0;
 }
 
 header h1 {
