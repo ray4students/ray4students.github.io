@@ -8,11 +8,11 @@ body {
 
 
 header {
-    background-height: 100vh;
-    background-width: 100vh;
     background-color: #0056b3;
     color: black;
     text-align: center;
+    background-height: 100vh;
+    background-width: 100vh;
 }
 
 header h1 {
