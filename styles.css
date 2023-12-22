@@ -11,8 +11,8 @@ header {
     background-color: #0056b3;
     color: black;
     text-align: center;
-    height: 100vh;
-    padding: 200px 0;
+    background-height: 100vh;
+    background-width: 100vh;
 }
 
 header h1 {
