@@ -12,7 +12,9 @@ header {
     color: black;
     text-align: center;
     padding: 200px 0;
-    background-size: cover;
+    background-image: url('https://via.placeholder.com/1200x600'); /* Example placeholder image URL */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
 }
 
 header h1 {
