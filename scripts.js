@@ -27,24 +27,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// Get the scroll-up button element
-var scrollUpButton = document.getElementById("scrollUpButton");
+ var scrollUpButton = document.getElementById("scrollUpButton");
 
-// Show the button when the user scrolls down
-window.onscroll = function () {
-    scrollFunction();
-};
+        window.onscroll = function () {
+            scrollFunction();
+        };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        scrollUpButton.style.display = "block";
-    } else {
-        scrollUpButton.style.display = "none";
-    }
-}
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollUpButton.style.display = "block";
+            } else {
+                scrollUpButton.style.display = "none";
+            }
+        }
 
-// Scroll to the top when the button is clicked
-function scrollToTop() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-}
+        function scrollToTop() {
+            var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+            function animateScroll() {
+                currentPosition -= 10;
+
+                if (currentPosition > 0) {
+                    requestAnimationFrame(animateScroll);
+                }
+
+                document.documentElement.scrollTop = currentPosition;
+                document.body.scrollTop = currentPosition;
+            }
+
+            animateScroll();
+        }
