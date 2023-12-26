@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
 
             function animateScroll() {
-                currentPosition -= 20;
+                currentPosition -= 40;
 
                 if (currentPosition > 0) {
                     requestAnimationFrame(animateScroll);
