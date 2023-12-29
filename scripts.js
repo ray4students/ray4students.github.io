@@ -57,3 +57,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
             animateScroll();
         }
+
+
+
+
+
+ function scrollToSection(sectionId) {
+            var targetSection = document.getElementById(sectionId);
+
+            if (targetSection) {
+                // Smooth scroll to the target section
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                });
+            }
+        }
