@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
 
         function animateScroll() {
-            currentPosition -= 20; // Adjust the scroll speed as needed
+            currentPosition -= 80;
 
             if (currentPosition > 0) {
                 requestAnimationFrame(animateScroll);
@@ -49,6 +49,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
         animateScroll();
     }
-});
 
+    function scrollToSection(sectionId) {
+        var targetSection = document.getElementById(sectionId);
+
+        if (targetSection) {
+            // Smooth scroll to the target section
+            targetSection.scrollIntoView({
+                behavior: 'smooth',
+            });
+        }
+    }
+});
 
