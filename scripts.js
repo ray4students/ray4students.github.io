@@ -6,9 +6,13 @@ document.addEventListener('DOMContentLoaded', function() {
     function handleNavLinkClick(event) {
         event.preventDefault();
 
-        const targetId = event.target.getAttribute('href').substring(1);
-        const targetPage = document.getElementById(targetId);
+        pages.forEach(page => {
+            page.style.display = 'none';
+        });
 
+        const targetId = event.target.getAttribute('href').substring(1); 
+        const targetPage = document.getElementById(targetId);
+        
         if (targetPage) {
             // Smooth scroll to the target section
             targetPage.scrollIntoView({
@@ -61,3 +65,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
