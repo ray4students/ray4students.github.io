@@ -13,12 +13,12 @@ header {
     background-color: #0056b3;
     color: black;
     text-align: center;
-    padding: 20vh 0; /* Adjust padding as needed */
-    background-image: url('kimberly-farmer-lUaaKCUANVI-unsplash.jpg'); /* Example placeholder image URL */
-    background-size: cover; /* Adjust as needed */
-    background-position: center; /* Adjust as needed */
-    height: 100vh; /* Set the height to 100% of the viewport height */
-    margin: 0; /* Remove default margin */
+    padding: 20vh 0; 
+    background-image: url('kimberly-farmer-lUaaKCUANVI-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    margin: 0; 
 }
 
 
