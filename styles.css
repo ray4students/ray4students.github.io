@@ -82,8 +82,8 @@ footer {
 #scrollUpButton {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 40px;
     padding: 10px;
     background-color: #007bff;
     color: #fff;
